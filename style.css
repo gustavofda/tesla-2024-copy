@@ -45,6 +45,16 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    color: white;
+    font-size: 30px;
+    display: inline-block; /* Faz com que o h2 só ocupe o espaço do texto */
+    border-bottom: 2px solid white; /* Linha embaixo do h2 */
+    padding-bottom: 2px;
+    line-height: 1.1;
+}
+
+
 .sub-titulo {
     color: white;
 }
@@ -81,9 +91,10 @@ button {
 .formulario {
     position: fixed;
     top: 40px;
-    width: 600px;
+    width: 100%; /* Ajusta a largura para telas menores */
+    max-width: 600px; /* Limita a largura em telas maiores */
     height: 100%;
     z-index: 3;
-    left: -50%;
+    left: -100%; /* Move totalmente para fora da tela */
     transition: 1.5s;
 }
