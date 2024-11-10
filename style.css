@@ -21,7 +21,7 @@ video, .img-tesla {
      object-fit: cover;
      filter: brightness(60%);
 }
- 
+
 .logo {
     filter: brightness(100);
     position: fixed;
